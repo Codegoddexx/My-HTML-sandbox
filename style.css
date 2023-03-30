@@ -1,0 +1,119 @@
+main {
+    display:flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 295px;
+    box-shadow: 10px 5px 9px 0px rgba(0,0,0,0.75);
+   border-radius: 25px;
+}
+    section{
+    background-color:white ;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+aside{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+article{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: brown;
+    position: relative; left: 30px;
+}
+body{
+    background-color: white;
+}
+ul{ 
+    list-style-type: none;
+    display: flex;
+    padding-left: 5px;
+    gap: 90px;
+   
+}
+
+button{
+    background-color: #2F4F4F;
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 25px;
+    position: relative; left: 20px;
+    margin-top: 30px;
+    border: none; 
+    font-size: 10px;
+}
+li {
+    font-size: 12px;
+    text-align: center;
+}
+.Reaction {
+    height: 22px;
+    width: 180px;
+    background-color: rgb(235, 129, 171);
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+.Memory {
+    height: 22px;
+    width: 180px;
+    background-color: rgb(195, 195, 28);
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+.Verbal {
+    height: 22px;
+    width: 180px;
+    background-color: green;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+.Visual {
+    height: 22px;
+    width: 180px;
+    background-color: purple;
+    padding-top: 8px;
+    padding-bottom: 0px;
+}
+#rea{
+    color: rgb(245, 31, 67);
+}
+#mem{
+    color: rgb(251, 251, 16);
+}
+#ver{
+    color: rgb(15, 241, 15);
+}
+#vis{
+    color: rgb(248, 24, 248);
+}
+#lp{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 110px;
+    width: 78px;
+    background: linear-gradient(180deg, #090979 0%, blue 100%);
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px 30px 30px 30px;
+    line-height: 20px;
+
+}
+
+#p{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    line-height: 10px;
+}
